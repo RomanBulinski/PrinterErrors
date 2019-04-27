@@ -6,8 +6,13 @@ public class MainTest {
 
 
     @Test
-    public void tst1(){
+    public void test1(){
         assertEquals(  "0/5", Main.printerError("abcde")   );
+    }
+
+    @Test
+    public void test2(){
+        assertEquals(  "5/5", Main.printerError("xyxvr")   );
     }
 
 
