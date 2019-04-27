@@ -1,6 +1,4 @@
 import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
 import java.util.List;
 
 public class Main {
@@ -31,6 +29,11 @@ public class Main {
 
         return  result;
 
+    }
+
+
+    public static String printerErrorCOdeWars(String s) {
+        return s.chars().filter(c -> c > 'm').count() + "/" + s.length();
     }
 
 
