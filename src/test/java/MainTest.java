@@ -14,6 +14,11 @@ public class MainTest {
         assertEquals(  "5/5", Main.printerError("xyxvr")   );
     }
 
+    @Test
+    public void test3(){
+        assertEquals(  "0/0", Main.printerError("")   );
+    }
+
 
 
 }
